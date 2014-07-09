@@ -54,5 +54,25 @@ for FILE in `egrep -v '(^#|^$)' proprietary-files.txt`; do
   fi
 done
 
+##added header extraction
+
+gsrcdir="headers/gralloc"
+lsrcdir="headers/libstagefright"
+
+gdstdir="../../../frameworks/native/include"
+ldstdir="../../../frameworks/av/include"
+
+for gsrcfile in ${gsrcdir}/*
+do
+	cp $gsrcfile $gdstdir/$gdstfile
+done
+
+for lsrcfile in ${lsrcdir}/*
+do
+	cp $lsrcfile $ldstdir/$ldstfile
+done
+
+
+
 
 ./setup-makefiles.sh
