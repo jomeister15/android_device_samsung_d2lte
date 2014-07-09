@@ -13,14 +13,14 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SGH-I747
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=d2lte	TARGET_DEVICE=d2lte
-BUILD_FINGERPRINT="samsung/d2tmo/d2tmo:4.1.1/JRO03L/T999UVDLJA:user/release-keys" 
-PRIVATE_BUILD_DESC="d2tmo-user 4.1.1 JRO03L T999UVDLJA release-keys"
+BUILD_FINGERPRINT="samsung/d2lte/d2lte:4.4.x:user/release-keys" 
+PRIVATE_BUILD_DESC="d2lte 4.4.x elease-keys"
 
 # Set up the product codename, build version & MOTD.
 PRODUCT_CODENAME := Pugno
 
 
-PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Evervolv for your T-Mobile Galaxy S II\nPlease visit us at \#evervolv on irc.freenode.net\nFollow @preludedrew for the latest Evervolv updates\nGet the latest rom at evervolv.com\n------------------------------------------------\n"
+PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Evervolv for your Galaxy S3 LTE\nPlease visit us at \#evervolv on irc.freenode.net\nFollow @preludedrew for the latest Evervolv updates\nGet the latest rom at evervolv.com\n------------------------------------------------\n"
 
 # Hot reboot
 PRODUCT_PACKAGE_OVERLAYS += \
